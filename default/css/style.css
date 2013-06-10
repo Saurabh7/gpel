@@ -1,4 +1,11 @@
 * { margin: 0; padding: 0; outline: 0; }
+@font-face{
+	font-family:'calib';
+	src:url(../fonts/calibri.ttf);
+	font-size:normal;
+	font-style:normal;
+	
+}
 
 body, html { height: 100%; }
 
@@ -46,7 +53,7 @@ textarea { overflow: auto; }
 
 #navigation { position:relative;padding:0 21px;  margin-bottom: 15px; margin-top:110;}
 #navigation ul { list-style:none; list-style-position: outside; }
-#navigation ul li { padding: 0 10px; float: left; font-family: sans-serif ;letter-spacing:1px; font-size: 15px; font-weight: 500; }
+#navigation ul li { padding: 0 10px; float: left; font-family:'calib',calibri;letter-spacing:1px; font-size: 15px; font-weight: 500; }
 #navigation ul li:first-child { padding-left: 55px; }
 #navigation ul li a { color: #4a4a4a; padding: 0 12px; display:block; height: 21px; line-height: 21px; border: 2px solid transparent; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; }
 #navigation ul li.active a,
